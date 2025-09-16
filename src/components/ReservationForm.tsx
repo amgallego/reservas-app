@@ -23,10 +23,10 @@ export default function ReservationForm({
       </h3>
 
       <input
-        type="text"
-        placeholder="Tu nombre"
+        type="email"
+        placeholder="Tu email"
         value={formData.name}
-        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+        onChange={(e) => setFormData({ ...formData, date: e.target.value })}
         required
         className="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:ring-2 focus:ring-teal-500 focus:outline-none"
       />
